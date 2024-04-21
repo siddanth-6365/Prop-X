@@ -1,0 +1,90 @@
+.propertydisplaysection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  flex: 0 0 40%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.content {
+  flex: 0 0 55%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  height: 30rem;
+  padding-top: 15%;
+}
+
+.sales
+{
+  color: red;
+  display: flex;
+  justify-content: right;
+  margin-top: 15%;
+}
+
+.box > div {
+  margin-bottom: 5px;
+}
+
+.bottom{
+  justify-content: center;
+  display:flex;
+  font-size: 1.4rem;
+  
+}
+
+.price {
+  display: flex;
+  font-weight: bold;
+}
+
+.items {
+  font-weight: bold;
+}
+
+.button {
+  justify-content: center;
+  margin-top: 5%;
+  display: flex;
+}
+
+
+.button button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button button:last-child {
+  margin-right: 0;
+}
